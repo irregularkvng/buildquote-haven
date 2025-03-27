@@ -4,10 +4,10 @@
 
 This is a web-based application designed to streamline the process of generating construction quotes. It allows users to manage projects, estimate costs, and generate professional quotes efficiently.
 
-How to Edit This Code
+# How to Edit This Code
 You can edit and maintain this application using any of the following methods:
 
-Using Your Preferred IDE
+# Using Your Preferred IDE
 To work locally, follow these steps:
 
 
