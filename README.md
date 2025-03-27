@@ -1,28 +1,14 @@
-# Welcome to your Lovable project
+Construction Quote Manager
+Project Overview
+This is a web-based application designed to streamline the process of generating construction quotes. It allows users to manage projects, estimate costs, and generate professional quotes efficiently.
 
-## Project info
+How to Edit This Code
+You can edit and maintain this application using any of the following methods:
 
-**URL**: https://lovable.dev/projects/00767ec9-5e39-4406-a081-9e3c36947dd3
+Using Your Preferred IDE
+To work locally, follow these steps:
 
-## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/00767ec9-5e39-4406-a081-9e3c36947dd3) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
@@ -30,40 +16,51 @@ git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
+Editing Files Directly in GitHub
+Navigate to the desired file(s) in the repository.
 
-**Edit a file directly in GitHub**
+Click the "Edit" button (pencil icon) at the top right of the file view.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Make the necessary changes and commit them.
 
-**Use GitHub Codespaces**
+Using GitHub Codespaces
+Go to the main page of the repository.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click on the "Code" button near the top right.
 
-## What technologies are used for this project?
+Select the "Codespaces" tab.
 
-This project is built with .
+Click "New codespace" to launch a development environment.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Make changes directly in the Codespace and commit them when done.
 
-## How can I deploy this project?
+Technology Stack
+This project is built using:
 
-Simply open [Lovable](https://lovable.dev/projects/00767ec9-5e39-4406-a081-9e3c36947dd3) and click on Share -> Publish.
+Vite – A fast and lightweight frontend tool
 
-## I want to use a custom domain - is that possible?
+TypeScript – Ensures type safety and scalability
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+React – Provides a component-based architecture
+
+Shadcn-UI – Customizable UI components
+
+Tailwind CSS – A utility-first CSS framework for efficient styling
+
+Deployment
+To deploy this project, consider using platforms such as:
+
+Netlify
+
+Vercel
+
+GitHub Pages
+
+Follow the respective platform's documentation for deployment instructions.
+
+Custom Domain Support
+If you want to use a custom domain, configure it through your hosting provider (e.g., Netlify or Vercel).
