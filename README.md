@@ -1,5 +1,7 @@
-Construction Quote Manager
-Project Overview
+# Construction Quote Manager
+
+## Project Overview
+
 This is a web-based application designed to streamline the process of generating construction quotes. It allows users to manage projects, estimate costs, and generate professional quotes efficiently.
 
 How to Edit This Code
