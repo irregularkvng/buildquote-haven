@@ -24,24 +24,24 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
-          <div className="font-bold text-2xl text-gray-900">BuildQuote</div>
+          <div className="font-playfair font-bold text-2xl text-purple-800">BamsConsult</div>
         </a>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+          <a href="#features" className="text-gray-700 hover:text-purple-700 font-medium transition-colors">
             Features
           </a>
-          <a href="#process" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+          <a href="#process" className="text-gray-700 hover:text-purple-700 font-medium transition-colors">
             How It Works
           </a>
-          <a href="#testimonials" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+          <a href="#testimonials" className="text-gray-700 hover:text-purple-700 font-medium transition-colors">
             Testimonials
           </a>
-          <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+          <a href="#contact" className="text-gray-700 hover:text-purple-700 font-medium transition-colors">
             Contact
           </a>
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white font-medium shadow-sm hover:shadow transition-all">
+          <Button className="bg-purple-700 hover:bg-purple-800 text-white font-medium shadow-sm hover:shadow transition-all">
             Get Started
           </Button>
         </div>
@@ -61,34 +61,34 @@ const Navbar = () => {
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
             <a 
               href="#features" 
-              className="text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
+              className="text-gray-700 hover:text-purple-700 font-medium py-2 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Features
             </a>
             <a 
               href="#process" 
-              className="text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
+              className="text-gray-700 hover:text-purple-700 font-medium py-2 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               How It Works
             </a>
             <a 
               href="#testimonials" 
-              className="text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
+              className="text-gray-700 hover:text-purple-700 font-medium py-2 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Testimonials
             </a>
             <a 
               href="#contact" 
-              className="text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
+              className="text-gray-700 hover:text-purple-700 font-medium py-2 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Contact
             </a>
             <Button 
-              className="bg-blue-600 hover:bg-blue-700 text-white font-medium mt-2 w-full"
+              className="bg-purple-700 hover:bg-purple-800 text-white font-medium mt-2 w-full"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Get Started
