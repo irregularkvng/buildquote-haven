@@ -34,7 +34,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					solid: '#2b7a77',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -60,17 +61,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				dark: {
+					DEFAULT: '#17202a',
+					lighter: '#1c2733',
+					darker: '#0f151d',
+				},
 				teal: {
-					50: '#f0fdfa',
-					100: '#ccfbf1',
-					200: '#99f6e4',
-					300: '#5eead4',
-					400: '#2dd4bf',
-					500: '#14b8a6',
-					600: '#0d9488',
-					700: '#0f766e',
-					800: '#115e59',
-					900: '#134e4a',
+					50: '#e6f3f3',
+					100: '#cce7e6',
+					200: '#99cfcd',
+					300: '#66b7b4',
+					400: '#339f9b',
+					500: '#2b7a77',
+					600: '#236260',
+					700: '#1c4a48',
+					800: '#143130',
+					900: '#0a1918',
 				},
 				purple: {
                     50: '#f5f3ff',

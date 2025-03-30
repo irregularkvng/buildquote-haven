@@ -16,7 +16,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 173 80% 33%;
+    /* Updated primary color to 2b7a77 */
+    --primary: 176 48% 32%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 20% 96%;
@@ -39,16 +40,18 @@
   }
 
   .dark {
-    --background: 222 47% 11%;
+    /* Updated dark background to 17202a */
+    --background: 213 24% 13%;
     --foreground: 210 40% 98%;
 
-    --card: 222 47% 11%;
+    --card: 213 24% 13%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222 47% 11%;
+    --popover: 213 24% 13%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 173 80% 33%;
+    /* Keep primary color the same in dark mode for consistent branding */
+    --primary: 176 48% 32%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -83,7 +86,7 @@
 
 @layer components {
   .glass {
-    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg dark:bg-gray-900/80 dark:border-gray-800/20;
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg dark:bg-gray-900/80 dark:border-gray-800/20 dark:text-white;
   }
   
   .section-container {
