@@ -1,6 +1,7 @@
-# Welcome to your Lovable project
+# Build Quote Project
 
 ## Project info
+This app gives building quotes using AI and preset building set standard prices
 
 **URL**: https://lovable.dev/projects/00767ec9-5e39-4406-a081-9e3c36947dd3
 
@@ -8,15 +9,9 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/00767ec9-5e39-4406-a081-9e3c36947dd3) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. 
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
